@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:showIn="@layout/activity_main"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="Inserisci lo ShareURL e clicka scarica!"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/infoTextView1"
+		android:layout_marginTop="31.0dp"
+		android:gravity="center" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/infoTextView1"
+		android:id="@+id/linkTextBox"
+		android:layout_alignRight="@id/infoTextView1"
+		android:layout_marginTop="68.5dp" />
+	<Button
+		android:text="SCARICA"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/linkTextBox"
+		android:id="@+id/btnDownload" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDownload"
+        android:id="@+id/debugTextView"
+        android:layout_marginTop="41.5dp" />
+	
+</RelativeLayout>
