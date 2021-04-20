@@ -1,3 +1,5 @@
+# The Dreamcatcher App is no more, so this obviously won't work and is unmaintained
+
 # Dreamcatcher App Photo Downloader
 
 A simple tool to download the full resolution pictures of photos posted in the DREAMCATCHER android and iOS application.
